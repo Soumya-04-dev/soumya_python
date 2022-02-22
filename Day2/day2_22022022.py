@@ -1,0 +1,7 @@
+name  = input("Please enter your name ") 
+age  = input("Please enter your age ") 
+# print("Name is " + name)
+print(name + ' ' + 'age' + ' ' + 'is' + ' ' + age)
+print(type(name))
+print(type(age))
+print(type(int(age)))
