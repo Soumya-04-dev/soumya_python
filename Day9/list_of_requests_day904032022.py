@@ -13,7 +13,7 @@ url = "https://api.github.com/users/Soumya-04-dev/repos"
 token = "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"
 headers = {"Authorization": f'token {token}'}
 response = requests.get(url, headers=headers)
-print(response.text)
+print(type(response.text))
 # str -> dict --json.loads()
 data = json.loads(response.text)
 for i in data:
