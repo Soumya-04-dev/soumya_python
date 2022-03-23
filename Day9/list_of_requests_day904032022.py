@@ -18,3 +18,4 @@ print(type(response.text))
 data = json.loads(response.text)
 for i in data:
     print(i["name"])
+# token :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

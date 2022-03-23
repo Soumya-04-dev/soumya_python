@@ -1,7 +1,7 @@
 try:
     a = 1 / 0
     f4 = open('test2.txt', 'w+')
-    f4.write("This is my test file for exeception handling")
+    f4.write("This is my test file for exception handling")
 
 except IOError:
     print("This is IO error and it Can't find the file or read data")
