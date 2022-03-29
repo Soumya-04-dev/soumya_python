@@ -1,0 +1,2 @@
+'studio-server', 'license-server', 'license-server-1', 'filesync-server-2', 'filesync-ser', 'license-ser-2' 'ad-server',
+'admirror-server', 'ad-server2', 'ad-server-2']
