@@ -44,4 +44,3 @@ for i in range(n):
 # --2. One dic1= {'A': 65, 'B':66, 'C': 67, 'D': 68 }
 # output: dic1 = {'65': A, '66':B, '67': C, '68': D '}
 
-n = input()
