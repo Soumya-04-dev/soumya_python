@@ -25,8 +25,14 @@ for i in range(n):
     else:
         print(False)
 '''
+import re
+
 n = int(input())
 for i in range(n):
     credit_no = input()
-    x = re.search('^[456][0-9]{3}-?[0-9]{4}-?[0-9]{4}-?[0-9]{4}$', credit_no)
-    print(x)
+    if re.match(r'^[456][0-9]{3}-?[0-9]{4}-?[0-9]{4}-?[0-9]{4}$', credit_no) and not re.search(r'([\d])\1-?\1\1',
+                                                                                               credit_no):
+
+        print("Valid")
+    else:
+        print("Invalid")
