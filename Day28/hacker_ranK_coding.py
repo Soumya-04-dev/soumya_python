@@ -24,7 +24,7 @@ for i in range(n):
         print(True)
     else:
         print(False)
-'''
+
 import re
 
 n = int(input())
@@ -36,3 +36,11 @@ for i in range(n):
         print("Valid")
     else:
         print("Invalid")
+'''
+
+# --1. Take a string e.g my_name =  my name is Sohil
+# output:
+# ym eman si lihos
+# --2. One dic1= {'A': 65, 'B':66, 'C': 67, 'D': 68 }
+# output: dic1 = {'65': A, '66':B, '67': C, '68': D '}
+
