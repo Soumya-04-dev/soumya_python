@@ -42,7 +42,7 @@ l1.sort()
 print(l1)  # [11, 21, 31, 41, 61, 71, 81]
 # n = int(input())
 for i in range(len(l1)):
-    lower = i
+    lower = 0
     higher = len(l1) - 1
     mid = lower + (higher - lower) // 2
 print(l1[mid])
